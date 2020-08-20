@@ -1,0 +1,18 @@
+#app3 > div {
+  position: relative;
+}
+
+#app3 #rectangle {
+  height: 50px;
+  width: 100px;
+  border: 1px solid black;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  margin-left: -50px;
+  transition: transform 0.8s ease-in-out;
+}
+
+#app3 #rectangle.active {
+  transform: translateY(30vh);
+} 
