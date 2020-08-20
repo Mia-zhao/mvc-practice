@@ -10,5 +10,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Mia <miazhaouw@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
 }

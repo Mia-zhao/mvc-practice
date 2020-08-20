@@ -11,9 +11,6 @@
 #app2 .tabs li.active {
   color: white;
   background-color: black;
-};
-
-#app2 .content {
 }
 
 #app2 .content > ul > li {
