@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "rm -rf demo/* && parcel build src/index.html --public-url ./ -d demo",
+    "dev": "parcel src/index.html -d demo"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "name": "mvc-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mia <miazhaouw@gmail.com>",
+  "license": "MIT"
+}
