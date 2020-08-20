@@ -1,0 +1,28 @@
+#app4 {
+  position: relative;
+}
+
+#circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid orangered;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -75px;
+  margin-left: -75px;
+}
+
+#circle.active {
+  animation: color-gradient 0.5s infinite alternate linear;
+}
+
+@keyframes color-gradient {
+  0% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: red;
+  }
+}
