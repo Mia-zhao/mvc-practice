@@ -1,7 +1,7 @@
-div {
+#app1 div {
   padding: 20px 10px;
 }
 
-button {
+#app1 button {
   padding: 4px 20px;
 }
